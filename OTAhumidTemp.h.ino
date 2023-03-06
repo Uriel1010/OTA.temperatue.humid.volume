@@ -177,10 +177,10 @@ char *list_of_strings[4] = {
     }; // Array of strings for publishing MQTT messages
 float list_of_floats[4]; // Array of floats for storing sensor data
 int size = 2; // The number of elements in the array to publish
-char* mqttServer = "192.168.31.130"; // The IP address of the MQTT broker
-int mqttPort = 1883; // The port number of the MQTT broker
-char* mqttUser = "home"; // The username for connecting to the MQTT broker
-char* mqttPassword = "089923743"; // The password for connecting to the MQTT broker
+char* mqttServer = mqttServer_add; // The IP address of the MQTT broker
+int mqttPort = mqttPort_num; // The port number of the MQTT broker
+char* mqttUser = mqttUsername; // The username for connecting to the MQTT broker
+char* mqttPassword = mqttPassword_p; // The password for connecting to the MQTT broker
 
 WiFiClient wifiClient; // Create a WiFiClient instance for connecting to the Wi-Fi network
 PubSubClient client(wifiClient); // Create a PubSubClient instance for publishing MQTT messages
