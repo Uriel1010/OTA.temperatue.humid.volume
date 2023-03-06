@@ -29,8 +29,9 @@ You can install these libraries using the Arduino Library Manager.
 The wiring diagram for this project is shown below:
 
 Wiring Diagram
+![My Image](diagram.png)
 
-Configuration
+## Configuration
 Before uploading the code to the ESP32, you need to set the following parameters in the code:
 
 ssid: the SSID of your Wi-Fi network
@@ -49,5 +50,6 @@ Connect the ESP32 to your computer using a USB cable.
 Open the code in the Arduino IDE.
 Select the board type and serial port from the Tools menu.
 Click the Upload button.
-Usage
+
+## Usage
 After uploading the code to the ESP32, you can use the push button to switch between the different sensor readings on the OLED display. The ESP32 will also send the sensor readings to your MQTT broker, which you can use to monitor the water level remotely.
