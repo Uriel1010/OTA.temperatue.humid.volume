@@ -6,27 +6,26 @@ The project also includes an OLED display that shows the temperature, humidity, 
 # Setup
 ## Hardware
 The following hardware components are used in this project:
+- ESP32 microcontroller
+- AHT10 temperature and humidity sensor
+- HC-SR04 ultrasonic distance sensor
+- OLED display
+- Momentary push button
+- Breadboard and jumper wires
 
-ESP32 microcontroller
-AHT10 temperature and humidity sensor
-HC-SR04 ultrasonic distance sensor
-OLED display
-Momentary push button
-Breadboard and jumper wires
-Software
+## Software
 The following libraries are required for this project:
-
-Adafruit_SSD1306
-Adafruit_GFX
-AHT10
-DallasTemperature
-OneWire
-PubSubClient
-WiFi
-ArduinoOTA
+- Adafruit_SSD1306
+- Adafruit_GFX
+- AHT10
+- DallasTemperature
+- OneWire
+- PubSubClient
+- WiFi
+- ArduinoOTA
 You can install these libraries using the Arduino Library Manager.
 
-Wiring
+## Wiring
 The wiring diagram for this project is shown below:
 
 Wiring Diagram
