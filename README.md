@@ -1,10 +1,10 @@
-#ESP32 Water Level Monitor
+# ESP32 Water Level Monitor
 This is a project for monitoring the water level in a container using an ESP32 microcontroller and several sensors. The sensors used in this project include an AHT10 temperature and humidity sensor, an HC-SR04 ultrasonic distance sensor, and the internal temperature sensor of the ESP32. The water level is calculated using the distance measured by the ultrasonic sensor and the dimensions of the container.
 
 The project also includes an OLED display that shows the temperature, humidity, water level, and internal temperature readings, as well as a button for switching between the different readings. The ESP32 is also connected to a Wi-Fi network and sends the sensor readings to an MQTT broker.
 
-#Setup
-##Hardware
+# Setup
+## Hardware
 The following hardware components are used in this project:
 
 ESP32 microcontroller
